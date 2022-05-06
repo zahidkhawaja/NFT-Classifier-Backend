@@ -14,3 +14,5 @@ Return a 200 OK with the NFT classification result, as long as the image format 
 
 ## Frontend 
 Here's the code for the [frontend](https://github.com/zahidkhawaja/NFT-Classifier)
+
+Note: this was deployed on Heroku's free plan, so the first API call might be delayed if the server has to wake back up. Subsequent calls should be fast. Stay tuned for updates.
