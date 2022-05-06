@@ -1,6 +1,7 @@
 import os
 from flask import Flask, request
 from fastbook import *
+from flask_cors import CORS
 
 # Ensure proper image formats
 valid_extensions = {"jpg", "jpeg", "png"}
@@ -14,6 +15,7 @@ uploads = "uploads"
 
 
 app = Flask(__name__)
+CORS(app)
 app.config["uploads"] = uploads
 learner = load_learner("model.pkl")
 
