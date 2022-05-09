@@ -1,6 +1,6 @@
 # Backend API - NFT Classifier App
 
-This API was built using Flask. It uses a classification ML model I trained to identify the top 3 NFTs on OpenSea: CryptoPunks, Bored Ape Yacht Club, and Mutant Ape Yacht Club. More NFTs will be supported soon!
+This API was built using Flask. It uses a classification ML model I trained to identify these popular NFTs on OpenSea: CryptoPunks, Bored Ape Yacht Club, Mutant Ape Yacht Club, Cool Cats, and mfers. More NFTs will be supported soon!
 
 ## API endpoints:
 
